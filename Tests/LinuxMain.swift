@@ -3,5 +3,6 @@ import XCTest
 import HelloLibTests
 
 var tests = [XCTestCaseEntry]()
-tests += HelloLibTests.allTests()
+tests += HelloLibTests.__allTests()
+
 XCTMain(tests)

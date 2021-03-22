@@ -9,7 +9,12 @@ final class HelloLibTests: XCTestCase {
         XCTAssertEqual(HelloLib().text, "Hello, World!")
     }
 
+    func test_greetings_should_contain_name() {
+        XCTAssertEqual(generateGreetings(name: "Ted"), "Failure Greetings Ted!")
+    }
+
     static var allTests = [
         ("testExample", testExample),
+        ("test_greetings_should_contain_name", test_greetings_should_contain_name),
     ]
 }
