@@ -1,4 +1,5 @@
-struct HelloLib {
+public struct HelloLib {
+    var version = "1.0.0"
     var text = "Hello, World!"
 }
 
