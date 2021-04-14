@@ -20,4 +20,4 @@ let package = Package(
         .testTarget(name: "HelloLibTests", dependencies: ["HelloLib"]),
     ]
 )
-// {{## BEGIN package ##}}
+// {{## END package ##}}
